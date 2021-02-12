@@ -1,0 +1,116 @@
+header,
+section,
+footer {
+  border: 1px solid;
+}
+
+.header {
+  background-color: white;
+}
+
+.nav-menu li {
+  display: inline-block;
+}
+
+.nav-link {
+  color: black;
+  display: inline-block;
+}
+
+.nav-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-h,
+.logo-f {
+  width: 145px;
+  height: 31px;
+  left: 215px;
+  top: 24px;
+
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+}
+
+.logo-h {
+  color: black;
+}
+
+.logo-f {
+  color: white;
+}
+
+.logo-part {
+  color: rgba(33, 150, 243, 1);
+}
+
+.footer {
+  background-color: rgba(47, 48, 58, 1);
+}
+
+.footer-address {
+  color: white;
+  size: 14px;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.address-link {
+  color: rgba(117, 117, 117, 1);
+}
+
+.address-link:hover {
+  color: rgba(33, 150, 243, 1);
+}
+
+.menu-btn li {
+  display: inline-block;
+}
+
+.m-btn {
+  background-color: rgba(245, 244, 250, 1);
+}
+
+.m-btn:hover {
+  background-color: rgba(33, 150, 243, 1);
+}
+
+.btn-txt {
+  color: black;
+}
+
+.btn-txt:hover {
+  color: white;
+}
+
+.visuallyhidden:not(:focus):not(:active) {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: 100px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
